@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T13:20:57.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="-rOmWDU4wAdw1_MPwyXx" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T13:31:17.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="s38sv9QTnQxUbyDIKF0x" version="21.6.6" type="github">
   <diagram name="Page-1" id="e92pFJtTAgTPSM_yZ_QB">
     <mxGraphModel dx="1423" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,75 @@
         </mxCell>
         <mxCell id="mdS3PxRhcJVPlUNp_Cys-22" value="Promote candidate to in-person interview" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1270" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-24" target="mdS3PxRhcJVPlUNp_Cys-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-24" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="690" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-27" target="mdS3PxRhcJVPlUNp_Cys-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-27" target="mdS3PxRhcJVPlUNp_Cys-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-27" value="Create job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-29" target="mdS3PxRhcJVPlUNp_Cys-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-29" value="Job Description analysis service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-31" target="mdS3PxRhcJVPlUNp_Cys-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-31" value="CV Analysis Service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-33" value="Generate Candidate Rankings" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-35" target="mdS3PxRhcJVPlUNp_Cys-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-35" value="Create Candidates in db based on cv analysis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-38" target="mdS3PxRhcJVPlUNp_Cys-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-38" value="Fill job table based on desc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-45" target="mdS3PxRhcJVPlUNp_Cys-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-45" target="mdS3PxRhcJVPlUNp_Cys-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-45" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="930" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-46" target="mdS3PxRhcJVPlUNp_Cys-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-46" value="Job table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdS3PxRhcJVPlUNp_Cys-50" target="mdS3PxRhcJVPlUNp_Cys-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-50" value="Candidate table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-54" value="1. Name&lt;br&gt;2.LLM Analysis&lt;br&gt;3.Rank&lt;br&gt;4.Status" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdS3PxRhcJVPlUNp_Cys-56" value="1.Job Description file&lt;br&gt;2. Candidates&lt;br&gt;3. CVs&lt;br&gt;4. Status" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
